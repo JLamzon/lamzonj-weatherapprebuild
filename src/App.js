@@ -4,7 +4,7 @@ import WeatherApi from './components/WeatherApi';
 import FullApp from './components/FullApp';
 
 function App() {
-  return <WeatherApi />
+  return <FullApp />
 }
 
 export default App;
