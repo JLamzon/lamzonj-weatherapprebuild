@@ -1,6 +1,8 @@
 Jessie Lamzon
 Weather App Rebuild
-Peer Review:
+Peer Review: By Richard Johnson
+
+I think Jessie did a good job with his app. The search function works great, and he was able to get all of the fetches and data that was necessary. He also got he forecast for the entire day, and all of the icons. Of course, this project isn't perfect, and there are a few things that definitely need polishing. The favorites list wasn't implemented, and the site has a plain white background, without much style to it aside form some blue squares for the hourly forecast. Though, aside from that, the project mostly works the way it should!
 
 
 # Getting Started with Create React App
