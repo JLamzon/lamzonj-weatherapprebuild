@@ -17,8 +17,8 @@ function MultiCards(props) {
         <Col className="cardBoxes">
         <p>{props.day}</p>
         <img className="multiIcon" src={weatherIcon + props.icon + '.png'} />
-        <p className="fontSize">{props.high}</p>
-        <p className="lowFontSize">L: {props.low}</p>
+        <p className="fontSize">{props.low}</p>
+        <p className="lowFontSize">L: {props.high}</p>
         </Col>
   );
 

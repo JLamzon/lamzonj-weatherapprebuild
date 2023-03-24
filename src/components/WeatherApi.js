@@ -91,11 +91,11 @@ function WeatherApi() {
     let dayThree = data.list[16].dt;
     let dayFour = data.list[24].dt;
     let dayFive = data.list[32].dt;
-    firstDayIcon = data.list[4].weather[0].icon;
-    secondDayIcon = data.list[12].weather[0].icon;
-    thirdDayIcon = data.list[20].weather[0].icon;
-    fourthDayIcon = data.list[28].weather[0].icon;
-    fifthDayIcon = data.list[36].weather[0].icon;
+    setFirstDayIcon(data.list[4].weather[0].icon);
+    setSecondDayIcon = data.list[12].weather[0].icon;
+    setThirdDayIcon = data.list[20].weather[0].icon;
+    setFourthDayIcon = data.list[28].weather[0].icon;
+    setFifthDayIcon = data.list[36].weather[0].icon;
   }
 
 
