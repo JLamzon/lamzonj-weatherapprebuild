@@ -1,0 +1,142 @@
+@font-face {
+    font-family: ShareTech-Regular;
+    src: url(../../assets/ShareTech-Regular.ttf);
+}
+
+.fullPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items:center;
+    flex-direction: column;
+    /* padding-top: 20rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    /* height: 100vh; */
+    
+}
+
+.fullPage{
+    background-color: rgb(227, 227, 227);
+}
+
+.input{
+    border-radius: 1rem;
+}
+
+.fullContainer{
+    margin-top: 5rem;
+}
+
+.weatherDescription{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.currentTemp{
+    font-family: ShareTech-Regular;
+    font-size: 70px;
+}
+
+.currentIcon
+{
+    object-fit: contain;
+    height: 100px;
+}
+
+.tempAndIcon *
+{
+    width: 200px;
+}
+
+@media (max-width: 1199px){
+    .fullContainer{
+        margin-top: 3rem;
+    }
+}
+
+.fontSize{
+    font-size: 35px;
+    font-family: ShareTech-Regular;
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+
+.lowFontSize{
+    font-size: 25px;
+    font-family: ShareTech-Regular;
+    font-weight: 700px;
+}
+
+@media (min-width: 700px){
+.input{
+    min-width: 300px;
+}
+}
+
+/* @media (min-width: 700px){
+    .input{
+        min-width: 300px;
+    }
+    } */
+
+.submitButton{
+/* background-image: url(../../assets/images/IconSearch.png); */
+background-color: grey;
+background-size: cover;
+/* height:25px;
+width: 25px; */
+border-style: none;
+text-align: center;
+border-radius: 3rem;
+height: 35px;
+width: 35px;
+padding: 0;
+}
+
+.searchIcon
+{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-size: contain;
+}
+
+.submitButton img{
+    height: 20px;
+}
+
+.favoritesBtn{
+
+border-style: none;
+background-color: grey;
+height: 35px;
+width: 35px;
+border-radius: 60px;
+padding: 0;
+}
+
+.favoritesBtn img{
+    height: 15px;
+}
+
+.faveBtn{
+background-color: transparent;
+border-style: none;
+box-shadow: none;
+border-radius: 5rem;
+}
+
+.faveBtn img{
+    height: 25px;
+}
+
+
+/* .fullpage{
+    padding-top: 35rem;
+}
+*/
+
+

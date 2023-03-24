@@ -1,0 +1,32 @@
+.bottomCards > *{
+    min-width: 200px;
+    outline: 1px black;
+
+}
+
+.bottomCards{
+    gap: 1rem;
+}
+
+.cardBoxes{
+    background-color: rgb(69, 199, 250);
+    border-radius: 2rem;
+    box-shadow: 4px 4px;
+    height: 200px;
+    text-align: center;
+    outline: 2px solid rgb(141, 141, 141);
+}
+
+.fontSize{
+    font-size: 15px;
+    margin-bottom: 0 !important;
+}
+
+.multiIcon
+{
+    height: 80px;
+}
+
+.lowFontSize{
+    margin-bottom: 0;
+}
